@@ -1,4 +1,4 @@
-#Python challenging programming exercises
+#Python Programming Exercises
 
 #----------------------------------------#
 Question 1
@@ -13,12 +13,7 @@ Hints:
 Consider use range(#begin, #end) method
 
 Solution:
-l=[]
-for i in range(2000, 3201):
-    if (i%7==0) and (i%5!=0):
-        l.append(str(i))
 
-print ','.join(l)
 #----------------------------------------#
 
 #----------------------------------------#
@@ -37,13 +32,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Solution:
-def fact(x):
-    if x == 0:
-        return 1
-    return x * fact(x - 1)
 
-x=int(raw_input())
-print fact(x)
 #----------------------------------------#
 
 #----------------------------------------#
@@ -60,6 +49,8 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Consider use dict()
+
+Solution:
 
 #----------------------------------------#
 
@@ -79,6 +70,8 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 tuple() method can convert list to tuple
 
+Solution:
+
 #----------------------------------------#
 
 #----------------------------------------#
@@ -93,6 +86,8 @@ Also please include simple test function to test the class methods.
 
 Hints:
 Use __init__ method to construct some parameters
+
+Solution:
 
 #----------------------------------------#
 
@@ -116,6 +111,8 @@ Hints:
 If the output received is in decimal form, it should be rounded off to its nearest value (for example, if the output received is 26.0, it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed to be a console input. 
 
+Solution:
+
 #----------------------------------------#
 
 #----------------------------------------#
@@ -134,6 +131,8 @@ Then, the output of the program should be:
 Hints:
 Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
 
+Solution:
+
 #----------------------------------------#
 
 #----------------------------------------#
@@ -149,6 +148,8 @@ bag,hello,without,world
 
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Solution:
 
 #----------------------------------------#
 
@@ -168,6 +169,8 @@ PRACTICE MAKES PERFECT
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+Solution:
+
 #----------------------------------------#
 
 #----------------------------------------#
@@ -185,6 +188,8 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 We use set container to remove duplicated data automatically and then use sorted() to sort the data.
 
+Solution:
+
 #----------------------------------------#
 
 #----------------------------------------#
@@ -201,6 +206,8 @@ Notes: Assume the data is input by console.
 
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Solution:
 
 #----------------------------------------#
 
